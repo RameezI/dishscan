@@ -2,7 +2,8 @@
 
 Welcome to the Dishscan Repository!
 
-This project is dedicated to the exploration of  Machine Learning (ML) approaches for the visual understanding and analysis of nutritional ingredients in various dishes and plates.  
+This project is dedicated to the exploration of Machine Learning (ML) approaches for creating automated understanding and analysis of the nutritional content and ingredients in a dish image or a food-plate using machine vision.
+
 We conducted a broad evaluations of ML vision models for food ingredient recognition, which are documented and discussed in this repository.
 
 ![Comparison Table](benchmark_dishscan.png)
