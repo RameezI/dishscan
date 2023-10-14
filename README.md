@@ -26,7 +26,7 @@ To get started with this project, follow these steps:
 
 1. Clone this repository to your local machine
    ```bash
-   git clone git@github.com:philips-internal/dishscan.git
+   git clone git@github.com:RameezI/dishscan.git
    ```
 
 2. Create the *dishscan* conda environment:  
