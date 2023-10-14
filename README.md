@@ -62,8 +62,8 @@ The research leading to these results has received funding from the European Uni
 -------------------------------
 This project is maintained by:
 **Rameez Ismail**
-- Email: rameez.ismail@philips.com
-- [GitHub-RameezI](hhttps://github.com/RameezI)
+- Email: rameez.ismail@protonmail.com
+- [GitHub-RameezI](https://github.com/RameezI)
 - [LinkedIn](www.linkedin.com/in/rameezismail)
 
 
