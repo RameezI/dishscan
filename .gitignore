@@ -1,0 +1,9 @@
+*idea/*
+*idea*
+/venv_*/
+*.egg-info/*
+__pycache__/*
+*.pyc
+args.txt
+add_header.py
+slurm_jobs/
