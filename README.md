@@ -14,7 +14,7 @@ Recognition of the actual ingredients is one of the two essential ML functions t
 
 ## Publication
 Our research in this field has been published in the paper titled "Food Ingredients Recognition Through Multi-label Learning"
-The publication can be accessed [here](publication.pdf).
+The publication can be accessed [here](https://arxiv.org/ftp/arxiv/papers/2210/2210.14147.pdf).
 
 <a id="1">[1]</a> 
 Ismail, Rameez, and Zhaorui Yuan, 
