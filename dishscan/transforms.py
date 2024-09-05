@@ -34,7 +34,6 @@ Email: rameez.ismaeel@gmail.com
 
 import tensorflow as tf
 from typing import Union, Tuple
-import tensorflow_addons as tfa
 from .utils import capture_params
 
 
@@ -281,21 +280,21 @@ class RandomVerticalFlip:
         return dataset.map(self.transform, num_parallel_calls=self.num_parallel_calls)
 
 
-class RandomCutout:
-    @capture_params
-    def __init__(self, cutout_size, input_key='image',
-                 num_parallel_calls=tf.data.AUTOTUNE) -> None:
-        self.key = input_key
-        self.cutout_size = cutout_size
-        self.num_parallel_calls = num_parallel_calls
+# class RandomCutout:
+#     @capture_params
+#     def __init__(self, cutout_size, input_key='image',
+#                  num_parallel_calls=tf.data.AUTOTUNE) -> None:
+#         self.key = input_key
+#         self.cutout_size = cutout_size
+#         self.num_parallel_calls = num_parallel_calls
     
-    def transform(self, batch):
-        output_image = tfa.image.random_cutout(batch[self.key], self.cutout_size)
-        batch.update({self.key: output_image})
-        return batch
+#     def transform(self, batch):
+#         output_image = tfa.image.random_cutout(batch[self.key], self.cutout_size)
+#         batch.update({self.key: output_image})
+#         return batch
     
-    def __call__(self, dataset):
-        return dataset.map(self.transform, self.num_parallel_calls)
+#     def __call__(self, dataset):
+#         return dataset.map(self.transform, self.num_parallel_calls)
 
 # @tf.function
 # def _norm_params(mask_size, offset=None):

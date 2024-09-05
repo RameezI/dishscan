@@ -7,3 +7,4 @@ __pycache__/*
 args.txt
 add_header.py
 slurm_jobs/
+*.7z
