@@ -58,11 +58,3 @@ For a complete list of options available to use with the `scanner` program:
 
 ## Acknowledgments
 The research leading to these results has received funding from the European Union's ECSEL Joint Undertaking under grant agreement number 826655 - project [TEMPO](https://tempo-ecsel.eu/). This activity was undertaken at Koninklijke Philips in partnership with the consortium mentioned. We appreciate the collective effort and collaboration that made this possible.
-
--------------------------------
-This project is maintained by:
-**Rameez Ismail**
-- [GitHub-RameezI](https://github.com/RameezI)
-- [LinkedIn](www.linkedin.com/in/rameezismail)
-
-Feel free to reach out for any questions, contributions, or collaboration opportunities.
